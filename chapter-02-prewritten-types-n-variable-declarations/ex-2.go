@@ -5,9 +5,9 @@ package main
 import "fmt"
 
 func main() {
-	const value = 10
-	i := value
-	var f float64 = value
+	const value = 10 //Константе не задаем тип
+	i := value //Принимает тип int по умолчанию
+	var f float64 = value //Задаем тип float64
 	fmt.Println(i)
 	fmt.Println(f)
 }
